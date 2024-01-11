@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral resesarcher. <a href='https://www.iee.unibe.ch'>Institute of Ecology and Evolution</a>. University of Bern.
+subtitle: Postdoctoral resesarcher
+subtitle: <a href='https://www.iee.unibe.ch'>Institute of Ecology and Evolution</a>. University of Bern.
 
 profile:
   align: right
