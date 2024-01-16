@@ -1,8 +1,8 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Catalina Chaparro-Pedraza
+    - name: Catalina Chaparro-Pedraza
+      value: 
     #- name: Date of Birth
     #  value: 14th March 1879
     #- name: Languages
@@ -17,7 +17,7 @@
       description:        
         - title: Populations crossing habitat boundaries in the face of environmental change
           contents:
-            - Advisor: Prof. Andre de Roos.
+            - Advisor: Prof. A. M. de Roos.
     - title: MSc in Biological Sciences
       institution: Universidad de los Andes, Bogota, Colombia
       year: 2013
