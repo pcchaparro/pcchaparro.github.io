@@ -21,9 +21,7 @@
     - title: MSc in Biological Sciences
       institution: Universidad de los Andes, Bogota, Colombia
       year: 2013
-      #description:
-      #  - Description 1.
-      #  - Description 2.
+      description:
 
 - title: Experience
   type: time_table
