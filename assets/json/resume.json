@@ -2,11 +2,10 @@
   "education": [
     {
       "institution": "University of Amsterdam, Amsterdam, Netherlands",
-      "area": "Software Development",
-      "studyType": "PhD in Theretical Ecology",
+      "studyType": "PhD in Theoretical Ecology",
       "startDate": "2015",
       "endDate": "2019",
-      "summary": "Populations crossing habitat boundaries in the face of environmental change",
+      "summary": "Populations crossing habitat boundaries in the face of environmental change"
     }
   ],
   "work": [
