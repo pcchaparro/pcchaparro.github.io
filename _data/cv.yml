@@ -1,23 +1,29 @@
 - title: General Information
   type: map
   contents:
-    - name: Catalina Chaparro-Pedraza
-      value:
+    - name: Gregory Roth
+      value: 
+    # - name: Date of Birth
+    #   value: 14th March 1879
+    # - name: Languages
+    #   value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Theoretical Ecology
-      institution: University of Amsterdam, Amsterdam, Netherlands
-      year: 2019
-      description:        
-        - title: Populations crossing habitat boundaries in the face of environmental change
-          contents:
-            - Advisor Prof. A. M. de Roos.
-    - title: MSc in Biological Sciences
-      institution: Universidad de los Andes, Bogota, Colombia
-      year: 2013
+    - title: PhD in Mathematics
+      institution: University of Neuchatel, Neuchatel, Switzerland
+      year: 2011
       description:
+        - title: Stochastic approximation algorithms and differential inclusions
+          contents:
+            - Advisor Prof. M. Benaïm.
+
+    - title: Master of Science in Mathematics
+      institution: University of Neuchatel, Neuchatel, Switzerland
+      year: 2007
+      description:
+        - Markov chains, Stability and Recurrence
 
 - title: Experience
   type: time_table
