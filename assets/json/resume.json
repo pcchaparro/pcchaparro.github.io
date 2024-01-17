@@ -1,12 +1,17 @@
 {
   "education": [
     {
-      "title": "Education",
       "institution": "University of Amsterdam, Amsterdam, Netherlands",
       "studyType": "PhD in Theoretical Ecology",
       "startDate": "2015",
       "endDate": "2019",
       "summary": "Populations crossing habitat boundaries in the face of environmental change"
+    },
+    {
+      "institution": "Universidad de los Andes, Bogota, Colombia",
+      "studyType": "MSc Biological Sciences",
+      "startDate": "2013",
+      "endDate": "2014",
     }
   ],
   "work": [
