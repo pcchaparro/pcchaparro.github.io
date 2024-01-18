@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: projects
 permalink: /projects/
 description: My research seeks to understand the processes underlying the origin, resilience and adaptability of biodiversity, to be able to predict how biodiversity will respond to environmental change. To do so, my research synthesize knowledge of biological processes across the fields of community ecology, ecosystem ecology, metabolic ecology, ecological stoichiometry and evolutionary genetics.
 nav: true
