@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Evolutionary ecology of ecosystem resilience
-description:
+description: Although environmental change triggers both ecological and evolutionary responses, the framework used to assess ecosystem resilience has lacked the evolutionary component thus far. To contribute towards the closure of this gap, I have developed the first generation of models that include evolutionary processes.
 img: assets/img/delayed_shift.jpg
 importance: 1
 category: work
