@@ -25,7 +25,9 @@ According to traditional ecological theory, when environmental conditions are fa
 
 I, with a diverse group of collaborators, discover that the introduction of trait dynamics mediated by evolution violates this paradigm in different manners:
 
-First,regime shifts may occur despite the critical threshold is not exceeded by environmental stress: We showed that a change in environmental conditions that does not exceed a critical threshold (e.g. TP1 in figure 1) may trigger an evolutionary process that, after a substantial delay, results in a regime shift. Our analysis revealed that ecological processes alone cannot predict the occurrence of these evolutionary-induced regime shifts, which can result in unintended management outcomes of wild populations.
+First, regime shifts may occur despite the critical threshold is not exceeded by environmental stress: We showed that a change in environmental conditions that does not exceed a critical threshold (e.g. TP1 in figure 1) may trigger an evolutionary process that, after a substantial delay, results in a regime shift. Our analysis revealed that ecological processes alone cannot predict the occurrence of these evolutionary-induced regime shifts (Chaparro-Pedraza, P.C. and de Roos, 2020), which can result in unintended management outcomes of wild populations (Chen, R. Chaparro-Pedraza, P.C., et al 2023).
+
+Further reading:
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
