@@ -5,7 +5,7 @@ description: Although environmental change triggers both ecological and evolutio
 img: assets/img/delayed_shift.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 <div class="row">
