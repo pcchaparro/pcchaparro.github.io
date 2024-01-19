@@ -5,12 +5,13 @@ description: Although environmental change triggers both ecological and evolutio
 img: assets/img/delayed_shift.jpg
 importance: 1
 category: work
-related_publications: false
 ---
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/bifurcation.jpg" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 200px" %}
+        {% include figure.liquid path="assets/img/bifurcation.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
