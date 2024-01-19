@@ -31,6 +31,15 @@ Second, evolution may prevent a fast ecosystem recovery once environmental stres
 
 Third, eco-evolutionary feedbacks can render ecosystems susceptible to Rate-tipping (figure 2): Previous work had hypothesized, without formal proof, that evolution may facilitate adaptation and thereby shift the magnitude of a critical threshold (threshold of Bifurcation-tipping, e.g. TP1 in figure 1) in ecosystems, perhaps delaying regime shifts. I provided the first proof to this hypothesis, and demonstrated that although the introduction of evolution may indeed delay regime shifts caused by Bifurcation-tipping, regime shifts can occur much earlier due to Rate-tipping (<a href="https://doi.org/10.1098/rspb.2021.1192">Chaparro-Pedraza, P.C. 2021</a>).
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rate_tipping.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 2. Eco-evolutionary feedbacks make ecosystems sensitive to the rate of environmental change. In ecological systems, regime shifts had been long considered to occur only when environmental stress exceeds a critical threshold magnitude (left). Eco-evolutionary systems experiencing gradual increase of environmental stress may undergo regime shifts due to Rate-tipping before the critical threshold magnitude is exceeded (right).
+</div>
+
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
