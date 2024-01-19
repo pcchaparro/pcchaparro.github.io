@@ -5,7 +5,6 @@ description: Although environmental change triggers both ecological and evolutio
 img: assets/img/delayed_shift.jpg
 importance: 1
 category: work
-related_publications: true
 ---
 
 ### Bifurcation tipping, the current paradigm in ecosystem resilience
@@ -25,7 +24,7 @@ According to traditional ecological theory, when environmental conditions are fa
 
 I, with a diverse group of collaborators, discover that the introduction of trait dynamics mediated by evolution violates this paradigm in different manners:
 
-First, regime shifts may occur despite the critical threshold is not exceeded by environmental stress: We showed that a change in environmental conditions that does not exceed a critical threshold (e.g. TP1 in figure 1) may trigger an evolutionary process that, after a substantial delay, results in a regime shift. Our analysis revealed that ecological processes alone cannot predict the occurrence of these evolutionary-induced regime shifts (<a href="https://doi.org/10.1038/s41559-020-1110-0">Chaparro-Pedraza, P.C. and de Roos, 2020</a>), which can result in unintended management outcomes of wild populations (<a href="https://doi.org/10.1073/pnas.2307529120">Chen, R. Chaparro-Pedraza, P.C., et al 2023</a>).
+First, regime shifts may occur despite the critical threshold is not exceeded by environmental stress: We showed that a change in environmental conditions that does not exceed a critical threshold (e.g. TP1 in figure 1) may trigger an evolutionary process that, after a substantial delay, results in a regime shift. Our analysis revealed that ecological processes alone cannot predict the occurrence of these evolutionary-induced regime shifts (<a href="https://doi.org/10.1038/s41559-020-1110-0">Chaparro-Pedraza, P.C. and de Roos, 2020</a>), which can result in unintended management outcomes of wild populations (<a href="https://doi.org/10.1073/pnas.2307529120">Chen, R., Chaparro-Pedraza, P.C., et al 2023</a>).
 
 Second, evolution may prevent a fast ecosystem recovery once environmental stress is reduced: we showed that, once an ecosystem tips to an alternative stable state, evolution can enable species to adapt to the conditions of this state (e.g. State B in figure 1). After the reduction in environmental stress (e.g. below TP2 in figure 1), it may take long time for them to readapt to the original state, causing a significant delay in the recovery of the ecosystem (<a href="https://doi.org/10.1086/716929">Chaparro-Pedraza, P.C. et al, 2021</a>).
 
