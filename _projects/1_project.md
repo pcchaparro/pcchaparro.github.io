@@ -7,19 +7,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+According to traditional ecological theory, when environmental conditions are favorable (i.e. low environmental stress), the ecosystem is in the upper branch (State A in figure 1). If conditions gradually deteriorate, the ecosystem follows the stable equilibrium line until conditions exceed threshold 1. At this point (TP1), the upper stable equilibrium disappears, and thus a slight increment in the magnitude of environmental stress causes the ecosystem to tip to the lower branch (State B). Most efforts to prevent ecosystem regime shifts therefore focus on mantaining environmental stress below a safe magnitude, in this case, below threshold 1 (TP1). If this magnitude is exceeded, to restore the tipped ecosystem, it is not sufficient to reduce environmental stress below threshold 1, but to a much lower level of stress indicated by threshold 2 (TP2). Once the magnitude of environmental stress is below threshold 2, the ecosystem quickly recovers back to State A.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
