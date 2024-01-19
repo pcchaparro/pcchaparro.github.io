@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-### The current paradigm in ecological theory of resilience
+### The current paradigm in ecosystem resilience
 
 According to traditional ecological theory, when environmental conditions are favorable (i.e. low environmental stress), the ecosystem is in the upper branch (State A in figure 1). If conditions gradually deteriorate, the ecosystem follows the stable equilibrium line until conditions exceed threshold 1. At this point (TP1), the upper stable equilibrium disappears, and thus a slight increment in the magnitude of environmental stress causes the ecosystem to tip to the lower branch (State B). Most efforts to prevent ecosystem regime shifts therefore focus on maintaining environmental stress below a safe magnitude, in this case, below threshold 1 (TP1). If this magnitude is exceeded, to restore the tipped ecosystem, it is not sufficient to reduce environmental stress below threshold 1, but to a much lower level of stress indicated by threshold 2 (TP2). Once the magnitude of environmental stress is below threshold 2, the ecosystem quickly recovers back to State A.
 
@@ -20,7 +20,7 @@ According to traditional ecological theory, when environmental conditions are fa
     Figure 1. An ecosystem is bistable when two different stable equilibrium states (solid lines) occur for the very same set of environmental conditions, separated by an unstable equilibrium state (dashed line).
 </div>
 
-### A paradigm shift in ecological theory of resilience
+
 
 I, with a diverse group of collaborators, discover that the introduction of trait dynamics mediated by evolution violates this paradigm in different manners:
 
