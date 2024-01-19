@@ -13,4 +13,6 @@ related_publications: false
         {% include figure.liquid path="assets/img/resilience.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    Model
+</div>
