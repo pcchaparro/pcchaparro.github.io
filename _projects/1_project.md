@@ -18,6 +18,8 @@ related_publications: false
 </div>
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Further reading:
+1.    Chaparro‐Pedraza, P.C. Fast environmental change and eco-evolutionary feedbacks can drive regime shifts in ecosystems before tipping points are crossed. Proc. R. Soc. B, 288: 20211192 (2021).
 Say you wanted to write a bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
