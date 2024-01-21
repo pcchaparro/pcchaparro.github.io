@@ -17,11 +17,6 @@ layout: default
 
   <article>
     {% if page.profile %}
-        <div class="row">
-            <div class="col-sm mt-3 mt-md-0">
-                {% include figure.liquid path="assets/img/paramo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-            </div>
-        </div>
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
