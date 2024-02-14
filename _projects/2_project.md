@@ -2,7 +2,7 @@
 layout: page
 title: Origin of biodiversity through ecological diversification
 description: Ecological diversification is thought to have given rise to much of the diversity of life on earth. To understand the origin of biodiversity, it is therefore fundamental to identify the factors facilitating or constraining ecological diversification.
-img: assets/img/delayed_shift.jpg
+img: assets/img/Radiation.jpg
 importance: 2
 category: Research lines
 ---
