@@ -36,5 +36,13 @@
       "date": "2022",
       "url": "https://eseb.org/prizes-funding/john-maynard-smith-prize/"
     }
+  ],
+  "grants": [
+    {
+      "title": "SNSF Spark",
+      "awarder": "Swiss National Science Foundation",
+      "date": "2020",
+      "url": "https://data.snf.ch/grants/grant/190940"
+    }
   ]
 }
