@@ -1,13 +1,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD Theoretical Ecology
       institution: University of Amsterdam, Netherlands
       year: 2019
       description:
-        - title: PhD in Theoretical Ecology
-          contents:
-            - Thesis: Populations crossing habitat boundaries in the face of environmental change.
+        - title: Thesis: Populations crossing habitat boundaries in the face of environmental change.
             
     - title: MSc Biological Sciences
       institution: Universidad de los Andes, Colombia
