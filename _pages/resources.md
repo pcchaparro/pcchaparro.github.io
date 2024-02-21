@@ -5,10 +5,6 @@ title: resources
 description:
 nav: true
 nav_order: 5
-toc:
-  - name: Videos
-  - name: Research proposal example
-
 ---
 
 ## Videos
