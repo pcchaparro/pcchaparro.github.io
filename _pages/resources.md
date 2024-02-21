@@ -1,7 +1,7 @@
 ---
 layout: distill
 permalink: /resources/
-title: Resources
+title: resources
 description:
 nav: true
 nav_order: 5
@@ -29,4 +29,6 @@ Here you can find videos of talks about my research
 
 ## Research proposal examples
 
-When I’m writing a grant or fellowship proposal, I always find it helpful to review the statements of previous successful applications. Here you can find samples of project statements from fellowships and grants that I received in the past.
+When I’m writing a grant or fellowship proposal, I find helpful to review the statements of previous successful applications. Here you can find samples of project statements from fellowships and grants that I received in the past.
+
+<a href="{{ spark2019.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
