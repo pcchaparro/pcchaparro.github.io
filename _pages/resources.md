@@ -5,10 +5,7 @@ title: resources
 description:
 nav: true
 nav_order: 5
-toc:
-  sidebar: left
-  - name: Videos
-  - name: Research proposal example
+toc: true
 ---
 
 ## Videos
