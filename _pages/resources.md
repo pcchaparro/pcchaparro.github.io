@@ -1,7 +1,7 @@
 ---
 layout: distill
 permalink: /resources/
-title: resources
+title:
 description:
 nav: true
 nav_order: 5
