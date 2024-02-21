@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 permalink: /resources/
 title: resources
 description:
