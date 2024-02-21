@@ -12,7 +12,7 @@ toc:
 
 ## Videos
 
-Here you can find videos of talks about my research
+Some presentations about my research that have been recorded are available here.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
