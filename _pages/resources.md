@@ -31,4 +31,12 @@ Here you can find videos of talks about my research
 
 When I’m writing a grant or fellowship proposal, I find helpful to review the statements of previous successful applications. Here you can find samples of project statements from fellowships and grants that I received in the past.
 
-[SNSF Spark Grant]<a href="assets\pdf\spark2019.pdf">ok</a>
+<a href="assets\pdf\spark2019.pdf">SNSF Spark Grant</a>
+
+          <a
+            href="{{ example_pdf.pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
