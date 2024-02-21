@@ -1,7 +1,7 @@
 ---
 layout: distill
 permalink: /resources/
-title:
+title: Resources
 description:
 nav: true
 nav_order: 5
@@ -11,6 +11,8 @@ toc:
 ---
 
 ## Videos
+
+Here you can find videos of talks about my research
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -26,3 +28,5 @@ toc:
 ---
 
 ## Research proposal examples
+
+When I’m writing a grant or fellowship proposal, I always find it helpful to review the statements of previous successful applications. Here you can find samples of project statements from fellowships and grants that I received in the past.
