@@ -5,7 +5,7 @@ title: resources
 description:
 nav: true
 nav_order: 5
-toc: true
+
 ---
 
 ## Videos
