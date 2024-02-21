@@ -20,7 +20,8 @@ toc:
 </div>
 
 <div class="caption">
-    Eco-evolutionary dynamics and the emergence of rate-dependent tipping. Invited talk at ESA 2022. Special Session on “Rate-dependent responses of biological communities to global change”.
+    Eco-evolutionary dynamics and the emergence of rate-dependent tipping.
+    Invited talk at ESA 2022. Special Session on “Rate-dependent responses of biological communities to global change”.
 </div>
 
 ---
