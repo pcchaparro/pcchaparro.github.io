@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eco-evolutionary responses to environmental change
-description: Understanding how environmental change affect the capacity of organisms to develop, grow, survive and reproduce is essential for predicting how species and ecosystems respond to environmental change. I study how environmental stressors, by altering the performance of organisms in different life stages, affect population persistence and community stability. 
+description: Understanding how environmental change affect the developmental capacity of organisms to complete their life-cycle is essential for predicting how species and ecosystems respond to environmental change. I study how environmental stressors, by altering the performance of organisms in different life stages, affect population persistence and community stability. 
 img: assets/img/eco_scales.jpg
 importance: 3
 category: Research lines
@@ -11,7 +11,7 @@ The persistence of populations depends on the capacity of organisms to reproduce
 
 ### Scaling up from the interaction between an organism and its environment to the persistence of populations and community dynamics
 
-My approach to this problem is to leverage knowledge at the individual scale to predict the responses of populations and communities to a changing environment. To do so, I use information from metabolic and physiological processes to formulate size/stage-structured models. These models provide a quantitative framework to study the population and community consequences of the complex regulatory process underlying organisms' development, growth, and survival in an eco-evolutionary context. I use these models to investigate how metabolic and physiological effects of various stressors scale up to alter individual performance, population persistence, and community dynamics.
+My approach to this problem is to leverage knowledge at the individual scale to predict the responses of populations and communities to a changing environment. To do so, I use information from metabolic and physiological processes to formulate size/stage-structured models. These models provide <strong>a quantitative framework to study the population and community consequences of the complex regulatory process underlying organisms' development, growth, and survival in an eco-evolutionary context</strong>. I use these models to investigate how metabolic and physiological effects of various stressors scale up to alter individual performance, population persistence, and community dynamics.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
