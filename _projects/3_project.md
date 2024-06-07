@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eco-evolutionary responses to environmental change
-description: The persistence of populations depends on the capacity of organisms to reproduce. But to reproduce, organisms must develop, grow, and survive from zygote to reproduction. I study how environmental stressors, by altering the performance of different developmental stages, affect population persistence and community stability. 
+description: Understanding how environmental change affect the capacity of organisms to develop, grow, survive and reproduce is essential for predicting how species and ecosystems respond to environmental change. I study how environmental stressors, by altering the performance of organisms in different life stages, affect population persistence and community stability. 
 img: assets/img/eco_scales.jpg
 importance: 3
 category: Research lines
