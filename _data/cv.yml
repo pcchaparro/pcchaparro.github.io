@@ -6,42 +6,33 @@
       year: 2019
       description:
         - Populations crossing habitat boundaries in the face of environmental change (<a href="https://dare.uva.nl/search?field1=author%20editor;value1=Chaparro;join=and;field2=meta;smode=advanced;f1-typeClassification=PhD%20thesis;docsPerPage=1;startDoc=1">e-thesis</a>)
-            
     - title: MSc Biological Sciences
       institution: Universidad de los Andes, Colombia
       year: 2013
-      
     - title: BSc Environmental engineering
       institution: Universidad de los Andes, Colombia
       year: 2011
-      
     - title: BSc Biology
       institution: Universidad de los Andes, Colombia
       year: 2010
-
 - title: Experience
   type: time_table
   contents:
     - title: Principal Investigator
       institution: Swiss Federal Institute of Aquatic Science and Technology EAWAG, Switzerland
       year: 2025-
-  
     - title: Postdoctoral researcher
       institution: University of Bern, Switzerland
       year: 2024
-            
     - title: Marie Curie Postdoctoral Fellow
       institution: Swiss Federal Institute of Aquatic Science and Technology EAWAG, Switzerland
       year: 2020-2023
-
     - title: Doctoral internship
       institution: International Institute for Applied Systems Analysis, Austria.
       year: 2017
-
     - title: Research assistant
       institution: Universidad de los Andes, Colombia
       year: 2013-2014
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -49,13 +40,10 @@
       year: 2022
       description:
         - Awarded by the European Society of Evolutionary Biology
-      
     - title: Top Student Award
       year: 2010
       description:
         - Awarded by the Ministry of Education of Colombia
-      
-
 - title: Grants and Fellowships
   type: time_table
   contents:
@@ -63,15 +51,12 @@
       year: 2023
       description:
       - Funded by the Swiss National Science Foundation
-      
     - title: Marie Curie Individual Fellowship
       year: 2020
       description:
       - Funded by the European Commission
-      
     - title: SNSF Spark Grant
       year: 2019
       description:
         - Funding scheme aimed at developing novel and unconventional scientific ideas
         - Funded by the Swiss National Science Foundation
-
