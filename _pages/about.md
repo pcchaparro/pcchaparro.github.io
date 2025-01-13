@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Group Leader
-subtitle: <a href='https://www.eawag.ch/en/about-us/portrait/organisation/staff/profile/catalina-chaparro-pedraza/show/'>Department Systems Analysis, Integrated Assessment and Modelling </a>. Eawag - Swiss Federal Institute of Aquatic Science and Technology.
+subtitle: <a href='https://www.eawag.ch/en/about-us/portrait/organisation/staff/profile/catalina-chaparro-pedraza/show/'>Department Systems Analysis, Integrated Assessment and Modelling</a>. Eawag - Swiss Federal Institute of Aquatic Science and Technology.
 
 profile:
   align: right
