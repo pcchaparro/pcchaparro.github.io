@@ -22,7 +22,7 @@
 - title: Experience
   type: time_table
   contents:
-      - title: Principal Investigator
+    - title: Principal Investigator
       institution: Swiss Federal Institute of Aquatic Science and Technology EAWAG, Switzerland
       year: 2025
   
@@ -60,7 +60,7 @@
   type: time_table
   contents:
   
-      - title: SNSF Ambizione Grant
+    - title: SNSF Ambizione Grant
       year: 2023
       description:
       - Funded by the Swiss National Science Foundation
