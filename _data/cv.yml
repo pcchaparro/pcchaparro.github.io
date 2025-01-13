@@ -22,6 +22,10 @@
 - title: Experience
   type: time_table
   contents:
+      - title: Principal Investigator
+      institution: Swiss Federal Institute of Aquatic Science and Technology EAWAG, Switzerland
+      year: 2025-
+  
     - title: Postdoctoral researcher
       institution: University of Bern, Switzerland
       year: 2024
@@ -55,6 +59,12 @@
 - title: Grants and Fellowships
   type: time_table
   contents:
+  
+      - title: SNSF Ambizione Grant
+      year: 2023
+      description:
+      - Funded by the Swiss National Science Foundation
+      
     - title: Marie Curie Individual Fellowship
       year: 2020
       description:
