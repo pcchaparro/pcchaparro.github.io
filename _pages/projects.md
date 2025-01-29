@@ -6,7 +6,7 @@ description: My research seeks to understand the processes underlying the origin
 nav: true
 nav_order: 3
 display_categories: [Research lines]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
