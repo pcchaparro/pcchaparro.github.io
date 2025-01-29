@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eco-evolutionary responses to environmental change
-description: Understanding how environmental change affect the developmental capacity of organisms to complete their life-cycle is essential for predicting how species and ecosystems respond to environmental change. I study how environmental stressors, by altering the performance of organisms in different life stages, affect population persistence and community stability. 
+description: Understanding how environmental change affect the capacity of organisms to complete their life-cycle is essential for predicting how species and ecosystems respond to environmental change.
 img: assets/img/eco_scales.jpg
 importance: 3
 category: Research lines
@@ -15,11 +15,11 @@ My approach to this problem is to leverage knowledge at the individual scale to 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Individual_Pop_Com.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Individual_Pop_Com.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 1. Ecological systems are complex systems whose properties at higher levels of organization emerge from interactions among components at lower levels. Therefore, characterising population and community responses to environmental change requires an understanding of how individual organisms respond and how these responses cascade through the networks of interacting organisms. 
+    Ecological systems are complex systems whose properties at higher levels of organization emerge from interactions among components at lower levels. Therefore, characterising population and community responses to environmental change requires an understanding of how individual organisms respond and how these responses cascade through the networks of interacting organisms. 
 </div>
 
 
