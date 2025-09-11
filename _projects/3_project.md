@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Environmental change effects across scales
+title: Eco-evolutionary responses to environmental change across scales
 description: Understanding how environmental change affect the capacity of organisms to complete their life-cycle is essential for predicting how species and ecosystems respond to environmental change.
 img: assets/img/eco_scales.jpg
 importance: 3
