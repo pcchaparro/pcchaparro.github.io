@@ -18,7 +18,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Principal Investigator
+    - title: Junior Group Leader (Principal Investigator)
       institution: Swiss Federal Institute of Aquatic Science and Technology EAWAG, Switzerland
       year: 2025-
     - title: Postdoctoral researcher
@@ -47,6 +47,10 @@
 - title: Grants and Fellowships
   type: time_table
   contents:
+    - title: ERC Starting Grant
+      year: 2025
+      description:
+      - Funded by the European Research Council
     - title: SNSF Ambizione Grant
       year: 2023
       description:
