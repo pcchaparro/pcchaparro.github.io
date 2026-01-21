@@ -1,8 +1,7 @@
 ---
 layout: cv
-title: cv
-nav: true
-nav_order: 5
+permalink: /cv/
+title: CV Catalina Chaparro Pedraza
 description:
 toc:
   sidebar: left
