@@ -11,12 +11,7 @@ profiles:
     image: prof_pic.jpg
     content: about_Catalina.md
     image_circular: false # crops the image to make it circular
-    
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
+    social: true # includes social icons at the bottom of the text
 
 
   - align: right
