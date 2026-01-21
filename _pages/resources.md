@@ -4,7 +4,7 @@ permalink: /resources/
 title: resources
 description:
 nav: true
-nav_order: 5
+nav_order: 6
 toc:
   - name: Videos
   - name: Research proposal examples
