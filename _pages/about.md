@@ -9,6 +9,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page-->
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/macmeta.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 We are an interdisciplinary team of scientists united by a passion for biological diversity and collaborative research. We study how developmental, ecological, and evolutionary processes shape population demography, species coexistence, and biodiversity dynamics. Our interdisciplinary approach builds a conceptual bridge —from genes and life histories to populations and communities— to advance our ability to safeguard biodiversity in a rapidly changing world.
 
 Supported by an ERC Starting Grant and an SNF Ambizione Grant, current projects combine experiments, quantitative models, and genomic analyses to uncover how adaptation shapes population and community resilience. A core research focus examines how the regulatory genomic landscape influences the capacity of populations to adapt to a changing environment.
