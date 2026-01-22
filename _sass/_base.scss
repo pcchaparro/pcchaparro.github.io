@@ -1082,8 +1082,14 @@ nav[data-toggle="toc"] {
   z-index: 1;
 }
 
+.cv-icon {
+  color: inherit;
+  display: inline-flex;
+}
+
 .cv-icon svg {
   width: 1em;
   height: 1em;
   vertical-align: -0.125em;
+  fill: currentColor;
 }
