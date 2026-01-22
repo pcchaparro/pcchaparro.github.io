@@ -1093,3 +1093,17 @@ nav[data-toggle="toc"] {
   vertical-align: -0.125em;
   fill: currentColor;
 }
+
+a .cv-icon {
+  color: var(--global-text-color);
+}
+
+a:visited .cv-icon {
+  color: var(--global-text-color);
+}
+
+a:hover .cv-icon,
+a:focus .cv-icon,
+a:focus-visible .cv-icon {
+  color: var(--global-theme-color);
+}
