@@ -1087,6 +1087,8 @@ nav[data-toggle="toc"] {
   display: inline-flex;
 }
 
+a:hover .cv-icon { color: var(--global-theme-color); }
+
 .cv-icon svg {
   width: 1em;
   height: 1em;
