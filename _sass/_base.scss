@@ -127,6 +127,17 @@ blockquote {
   }
 }
 
+.hero-image {
+  width: 100vw;
+  height: 60vh; /* adjust height as you like */
+  margin-left: calc(-50vw + 50%);
+  background-image: url("/assets/img/macmeta.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px; /* optional */
+}
+
 // Math
 
 .equation {
