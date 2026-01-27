@@ -18,4 +18,9 @@ profiles:
     image: D_Bharath.jpeg
     content: about_Dhanya.md
     image_circular: false # crops the image to make it circular
+    
+  - align: right
+    image: A_Maurer.jpeg
+    content: about_Annette.md
+    image_circular: false # crops the image to make it circular
 ---
