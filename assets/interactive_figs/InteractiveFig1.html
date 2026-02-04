@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adaptation Speed (Pluto notebook export)</title>
+  <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #1b1e23;
+      --muted: #5f6b7a;
+      --border: rgba(0,0,0,0.10);
+      --accent: #3b6cff;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.35;
+    }
+    header {
+      padding: 18px 18px 6px 18px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.00));
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 8px 0;
+      letter-spacing: 0.2px;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0 0 10px 0;
+      font-size: 13px;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 14px;
+      padding: 14px 14px 20px 14px;
+    }
+    @media (max-width: 980px) {
+      main { grid-template-columns: 1fr; }
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 12px 10px 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.30);
+    }
+    .card h2 {
+      font-size: 14px;
+      margin: 0 0 8px 0;
+      color: var(--text);
+    }
+    .control {
+      margin: 10px 0;
+      padding: 8px 8px 10px 8px;
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    label {
+      font-size: 13px;
+      color: var(--text);
+    }
+    output {
+      font-variant-numeric: tabular-nums;
+      font-size: 12px;
+      color: var(--muted);
+      min-width: 90px;
+      text-align: right;
+    }
+    input[type="range"] {
+      width: 100%;
+    }
+    .switch {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .switch label {
+      font-size: 13px;
+      color: var(--text);
+    }
+    .switch input[type="checkbox"] {
+      transform: scale(1.2);
+      accent-color: var(--accent);
+    }
+    #plot {
+      min-height: 720px;
+      height: calc(100vh - 120px);
+    }
+    @media (max-width: 980px) {
+      #plot { height: 820px; }
+    }
+    .note {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 8px;
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Selection gradient vs age at maturity</h1>
+      <p class="sub">Interactive figure 1 from article “Generation time is not a universal constraint to adaptive evolution”.</p>
+    </header>
+    
+  <main>
+    <section class="card" aria-label="Controls">
+      <h2>Define birth and death rates of genotype B</h2>
+
+      <div class="control">
+        <div class="row">
+          <label for="birth">birth rate</label>
+          <output id="birth_out" class="mono"></output>
+        </div>
+        <input id="birth" type="range" min="0.0001" max="0.002" step="0.0001" value="0.001" />
+      </div>
+
+      <div class="control">
+        <div class="row">
+          <label for="death_j">pre-maturity death rate</label>
+          <output id="death_j_out" class="mono"></output>
+        </div>
+        <input id="death_j" type="range" min="0.0001" max="0.002" step="0.0001" value="0.001" />
+      </div>
+
+      <div class="control">
+        <div class="row">
+          <label for="death_a">post-maturity death rate</label>
+          <output id="death_a_out" class="mono"></output>
+        </div>
+        <input id="death_a" type="range" min="0.0001" max="0.002" step="0.0001" value="0.0001" />
+      </div>
+
+      <h2 style="margin-top: 14px;">Define the relative advantages of genotype A</h2>
+
+      <div class="control">
+        <div class="row">
+          <label for="rel_adv_birth">birth rate (%)</label>
+          <output id="rel_adv_birth_out" class="mono"></output>
+        </div>
+        <input id="rel_adv_birth" type="range" min="0" max="100" step="1" value="0" />
+      </div>
+
+      <div class="control">
+        <div class="row">
+          <label for="rel_adv_death_j">pre-maturity death rate (%)</label>
+          <output id="rel_adv_death_j_out" class="mono"></output>
+        </div>
+        <input id="rel_adv_death_j" type="range" min="0" max="100" step="1" value="0" />
+      </div>
+
+      <div class="control">
+        <div class="row">
+          <label for="rel_adv_death_a">post-maturity death rate (%)</label>
+          <output id="rel_adv_death_a_out" class="mono"></output>
+        </div>
+        <input id="rel_adv_death_a" type="range" min="0" max="100" step="1" value="0" />
+      </div>
+
+      <div class="control switch">
+        <label for="plotlog">Show x-axis: linear / log</label>
+        <input id="plotlog" type="checkbox" />
+      </div>
+
+      <p class="note">
+        This interactive figure has been made by Andreas Scheidegger using the source code of the model presented in the article and supported by ChatGPT.
+      </p>
+    </section>
+
+    <section class="card" aria-label="Plots">
+      <div id="plot"></div>
+      <p class="note">
+        Tip: you can zoom/pan with the mouse; double-click resets. Legend toggles traces.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    "use strict";
+
+    // -----------------------
+    // Lambert W implementation (principal branch W0 for x >= -1/e)
+    // Halley's method with safe guards; sufficient for this notebook's parameter range.
+    // -----------------------
+    function lambertW0(x) {
+      if (!Number.isFinite(x)) return NaN;
+      if (x === 0) return 0;
+      const minX = -1 / Math.E;
+      if (x < minX) return NaN;
+
+      // Initial guess
+      let w;
+      if (x < 1) {
+        // series-ish start near 0; also ok down to -1/e in our use (we won't go that low)
+        w = x;
+      } else {
+        // asymptotic
+        w = Math.log(x);
+        if (x > 3) w -= Math.log(w);
+      }
+
+      // Halley iterations
+      for (let k = 0; k < 40; k++) {
+        const e = Math.exp(w);
+        const f = w * e - x;
+        const wp1 = w + 1;
+        const denom = e * wp1 - (wp1 + 1) * f / (2 * wp1);
+        const dw = f / denom;
+        w -= dw;
+        if (Math.abs(dw) <= 1e-14 * (1 + Math.abs(w))) break;
+      }
+      return w;
+    }
+
+    // -----------------------
+    // Model functions mirroring the Pluto notebook
+    // -----------------------
+    function death_rate(age, age_maturity, death_j, death_a) {
+      return (age < age_maturity) ? death_j : death_a;
+    }
+
+    function birth_rate(age, age_maturity, birth) {
+      return (age < age_maturity) ? 0 : birth;
+    }
+
+    function intrinsic_growth_rate(age_maturity, death_j, death_a, birth) {
+      const arg = age_maturity * birth * Math.exp(-age_maturity * (death_j - death_a));
+      const w = lambertW0(arg);
+      return (w / age_maturity) - death_a;
+    }
+
+    // -----------------------
+    // Data grids
+    // -----------------------
+    const age = [];
+    for (let a = 1; a <= 4000; a += 10) age.push(a);
+
+    const age_maturity_plt = [];
+    for (let a = 1; a <= 4000; a += 10) age_maturity_plt.push(a);
+
+    // -----------------------
+    // UI helpers
+    // -----------------------
+    const el = (id) => document.getElementById(id);
+
+    function fmt(x, digits=6) {
+      if (!Number.isFinite(x)) return "NaN";
+      return Number(x)
+        .toFixed(digits)
+        .replace(/(\.\d*?)0+$/,'$1') // remove trailing zeros only in fractional part
+        .replace(/\.$/,'');         // remove trailing dot if no decimals left
+    }
+
+    function readParams() {
+      const birth = parseFloat(el("birth").value);
+      const death_j = parseFloat(el("death_j").value);
+      const death_a = parseFloat(el("death_a").value);
+
+      const rel_adv_birth = parseFloat(el("rel_adv_birth").value);
+      const rel_adv_death_j = parseFloat(el("rel_adv_death_j").value);
+      const rel_adv_death_a = parseFloat(el("rel_adv_death_a").value);
+
+      const plotlog = el("plotlog").checked;
+
+      return { birth, death_j, death_a, rel_adv_birth, rel_adv_death_j, rel_adv_death_a, plotlog };
+    }
+
+    function syncOutputs(p) {
+      el("birth_out").textContent = fmt(p.birth, 6);
+      el("death_j_out").textContent = fmt(p.death_j, 6);
+      el("death_a_out").textContent = fmt(p.death_a, 6);
+
+      el("rel_adv_birth_out").textContent = fmt(p.rel_adv_birth, 0) + " %";
+      el("rel_adv_death_j_out").textContent = fmt(p.rel_adv_death_j, 0) + " %";
+      el("rel_adv_death_a_out").textContent = fmt(p.rel_adv_death_a, 0) + " %";
+    }
+
+    // -----------------------
+    // Plot
+    // -----------------------
+    const AGE_MATURITY_FIXED = 2000;
+
+    function computeTraces(p) {
+      const birthA = p.birth * (1 + p.rel_adv_birth / 100);
+      const deathjA = p.death_j / (1 + p.rel_adv_death_j / 100);
+      const deathaA = p.death_a / (1 + p.rel_adv_death_a / 100);
+
+      const y_birth_A = age.map(a => birth_rate(a, AGE_MATURITY_FIXED, birthA));
+      const y_birth_B = age.map(a => birth_rate(a, AGE_MATURITY_FIXED, p.birth));
+
+      const y_death_A = age.map(a => death_rate(a, AGE_MATURITY_FIXED, deathjA, deathaA));
+      const y_death_B = age.map(a => death_rate(a, AGE_MATURITY_FIXED, p.death_j, p.death_a));
+
+      const select_coef = age_maturity_plt.map(am => (
+        intrinsic_growth_rate(am, deathjA, deathaA, birthA) -
+        intrinsic_growth_rate(am, p.death_j, p.death_a, p.birth)
+      ));
+
+      const traces = [
+        // Birth (top-left)
+        {
+          x: age, y: y_birth_A, type: "scatter", mode: "lines",
+          line: { color: "#3b6cff" },
+          name: "genotype A", xaxis: "x", yaxis: "y"
+        },
+        {
+          x: age, y: y_birth_B, type: "scatter", mode: "lines",
+          line: { color: "#f28e2b" },
+          name: "genotype B", xaxis: "x", yaxis: "y"
+        },
+
+        // Death (top-right)
+        {
+          x: age, y: y_death_A, type: "scatter", mode: "lines",
+          line: { color: "#3b6cff" },
+          name: "genotype A", xaxis: "x2", yaxis: "y2", showlegend: false
+        },
+        {
+          x: age, y: y_death_B, type: "scatter", mode: "lines",
+          line: { color: "#f28e2b" },
+          name: "genotype B", xaxis: "x2", yaxis: "y2", showlegend: false
+        },
+
+        // Selection (bottom, spanning)
+        {
+          x: age_maturity_plt, y: select_coef, type: "scatter", mode: "lines",
+          line: { color: "#7b61ff", width: 2 },
+          name: "selection coefficient", xaxis: "x3", yaxis: "y3", showlegend: false
+        }
+      ];
+      return traces;
+    }
+      
+      function layoutFor(p) {
+        const xType = p.plotlog ? "log" : "linear";
+
+        const common = {
+          paper_bgcolor: "rgba(0,0,0,0)",
+          plot_bgcolor: "rgba(0,0,0,0)",
+          font: { color: "#1b1e23" },
+          margin: { l: 70, r: 20, t: 50, b: 60 },
+          legend: { orientation: "h", x: 0.12, y: 0.9 },
+        };
+
+        // ---- 2x2 layout geometry ----
+        const colGap = 0.14;
+        const xL0 = 0.00;
+        const xL1 = 0.50 - colGap / 2;
+        const xR0 = 0.50 + colGap / 2;
+        const xR1 = 1.00;
+
+        // ---- 2x2 layout geometry (rows) ----
+        const rowGap = 0.18;
+        const topPad = 0.14;
+
+        const yTop0 = 0.55 + rowGap/2;
+        const yTop1 = 1.00 - topPad;
+
+        const yBot0 = 0.00;
+        const yBot1 = 0.55 - rowGap/2;
+
+        return Object.assign({}, common, {
+          // ---- Birth rate (top-left) ----
+          xaxis: {
+            type: xType,
+            domain: [xL0, xL1],
+            showgrid: true,
+            title: { text: "Age (days)", standoff: 10 },
+          },
+          yaxis: {
+            anchor: "x",
+            domain: [yTop0, yTop1],
+            range: [0, 0.0025],
+            title: { text: "Birth rate (1/day)", standoff: 12 },
+            automargin: true
+          },
+
+          // ---- Death rate (top-right) ----
+          xaxis2: {
+            type: xType,
+            domain: [xR0, xR1],
+            showgrid: true,
+            title: { text: "Age (days)", standoff: 10 },
+          },
+          yaxis2: {
+            anchor: "x2",
+            domain: [yTop0, yTop1],
+            range: [0, 0.0025], 
+            title: { text: "Death rate (1/day)", standoff: 12 },
+            automargin: true
+          },
+
+          // ---- Selection coefficient (bottom, spanning both columns) ----
+          xaxis3: {
+            type: xType,
+            anchor: "y3",
+            domain: [xL0, xR1],
+            showgrid: true,
+            showticklabels: true,
+            title: { text: "Age at maturity (days)", standoff: 10 },
+            automargin: true
+          },
+          yaxis3: {
+            anchor: "x3",
+            domain: [yBot0, yBot1],
+            title: { text: "Selection coefficient<br>(r_A - r_B)", standoff: 12 },
+            automargin: true,
+            exponentformat: "none",
+            tickformat: ".2e"
+          },
+
+
+          // ---- Panel labels (annotations) ----
+          annotations: [
+          // ---- Row titles ----
+                        {
+                          text: "<b>Birth and death rates of both genotypes</b>",
+                          x: 0.5,
+                          y: 1.06,
+                          xref: "paper",
+                          yref: "paper",
+                          xanchor: "center",
+                          yanchor: "top",
+                          showarrow: false,
+                          font: { size: 18, color: "#1b1e23" }
+                        },
+                        {
+                          text: "Age-dependent birth and mortality schedules of a species with age at maturity = 2000.",
+                          x: 0.5,
+                          y: 1.02,
+                          xref: "paper",
+                          yref: "paper",
+                          xanchor: "center",
+                          yanchor: "top",
+                          showarrow: false,
+                          font: {
+                            size: 13,
+                            color: "#6b7280"
+                          }
+                        },
+                        {
+                          text: "<b>Selection coefficient vs. age at maturity</b>",
+                          x: 0.5,
+                          y: yBot1 + rowGap/2 - .05,
+                          xref: "paper",
+                          yref: "paper",
+                          xanchor: "center",
+                          yanchor: "middle",
+                          showarrow: false,
+                          font: { size: 18, color: "#1b1e23" }
+                        },
+
+            {
+              text: "",
+              x: xL0 + 0.01,
+              y: yTop1 - 0.02,
+              xref: "paper",
+              yref: "paper",
+              xanchor: "left",
+              yanchor: "top",
+              showarrow: false,
+              font: { size: 14, color: "#5f6b7a" },
+            },
+            {
+              text: "",
+              x: xR0 + 0.01,
+              y: yTop1 - 0.02,
+              xref: "paper",
+              yref: "paper",
+              xanchor: "left",
+              yanchor: "top",
+              showarrow: false,
+              font: { size: 14, color: "#5f6b7a" },
+            },
+            {
+              text: "",
+              x: xL0 + 0.01,
+              y: yBot1 - 0.02,
+              xref: "paper",
+              yref: "paper",
+              xanchor: "left",
+              yanchor: "top",
+              showarrow: false,
+              font: { size: 15, color: "#5f6b7a" },
+            },
+          ],
+        });
+      }
+
+    let first = true;
+
+    function render() {
+      const p = readParams();
+      syncOutputs(p);
+
+      const traces = computeTraces(p);
+      const layout = layoutFor(p);
+      const config = { responsive: true, displaylogo: false };
+
+      if (first) {
+        Plotly.newPlot("plot", traces, layout, config);
+        first = false;
+      } else {
+        Plotly.react("plot", traces, layout, config);
+      }
+    }
+
+    // Wire up inputs
+    const inputs = [
+      "birth", "death_j", "death_a",
+      "rel_adv_birth", "rel_adv_death_j", "rel_adv_death_a",
+      "plotlog"
+    ];
+    for (const id of inputs) {
+      el(id).addEventListener("input", render);
+      el(id).addEventListener("change", render);
+    }
+
+    // initial render
+    render();
+  </script>
+</body>
+</html>

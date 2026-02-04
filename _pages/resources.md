@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 toc:
   - name: Videos
+  - name: Interactive figures
   - name: Research proposal examples
 ---
 
@@ -23,6 +24,14 @@ Some presentations about my research that have been recorded are available here.
 <div class="caption">
     Eco-evolutionary dynamics and the emergence of rate-dependent tipping. Invited talk at ESA 2022. Special Session on “Rate-dependent responses of biological communities to global change”.
 </div>
+
+---
+
+## Interactive figures
+
+We created interactive versions of some figures in research articles. Feel free to use them for didactical purposes
+
+[Figure 1 in “Generation time is not a universal constraint to adaptive evolution” ](https://pcchaparro.github.io/assets/interactive_figs/InteractiveFig1.html)
 
 ---
 
