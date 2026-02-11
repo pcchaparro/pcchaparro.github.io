@@ -1,6 +1,6 @@
 ---
 layout: post
-title: We are hiring!!!
+title: We are hiring!
 date: 2026-02-05
 inline: false
 related_posts: false
@@ -12,4 +12,7 @@ We are looking for 2 postdocs and 1 reasearch assistant to work in the ERC proje
 
 Postdoctoral position 1: <a href="https://apply.refline.ch/673277/1341/pub/1/index.html">Genomic signatures of adaptive evolution along the fast-slow life history continuum</a>
 
+Postdoctoral position 2: <a href="https://apply.refline.ch/673277/1340/pub/1/index.html">Experimental eco-evolutionary dynamics of resilience</a>
+
+Research assistant: <a href="https://apply.refline.ch/673277/1339/pub/1/index.html">To support  eco-evolutionary dynamics experiment</a>
 
