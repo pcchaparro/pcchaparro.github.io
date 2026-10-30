@@ -13,14 +13,13 @@ profiles:
     image_circular: false # crops the image to make it circular
     social: true # includes social icons at the bottom of the text
 
-
   - align: right
     image: D_Bharath.jpeg
     content: about_Dhanya.md
     image_circular: false # crops the image to make it circular
     
   - align: right
-    image: A_Maurer.jpeg
-    content: about_Annette.md
+    image: V_Cunha.jpeg
+    content: about_Vanessa.md
     image_circular: false # crops the image to make it circular
 ---
