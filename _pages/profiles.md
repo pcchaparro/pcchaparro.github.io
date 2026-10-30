@@ -22,4 +22,10 @@ profiles:
     image: V_Cunha.jpeg
     content: about_Vanessa.md
     image_circular: false # crops the image to make it circular
+
+  - align: right
+    image: S_Moglia.jpeg
+    content: about_Simona.md
+    image_circular: false # crops the image to make it circular
+
 ---
