@@ -30,13 +30,13 @@ layout: page
           {% else %}
             {{ content }}
           {% endif %}
-        {% if profile.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+          {% if profile.social %}
+            <div class="social">
+              <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+              <div class="contact-note">{{ site.contact_note }}</div>
+            </div>
+          {% endif %}
         </div>
       {% endfor %}
     {% endif %}

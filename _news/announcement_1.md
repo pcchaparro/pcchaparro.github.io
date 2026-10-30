@@ -14,5 +14,4 @@ Postdoctoral position 1: <a href="https://apply.refline.ch/673277/1341/pub/1/ind
 
 Postdoctoral position 2: <a href="https://apply.refline.ch/673277/1340/pub/1/index.html">Experimental eco-evolutionary dynamics of resilience</a>
 
-Research assistant: <a href="https://apply.refline.ch/673277/1339/pub/1/index.html">To support  eco-evolutionary dynamics experiment</a>
-
+Research assistant: <a href="https://apply.refline.ch/673277/1339/pub/1/index.html">To support eco-evolutionary dynamics experiment</a>

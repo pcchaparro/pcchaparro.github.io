@@ -22,9 +22,6 @@ Adaptive radiations are known for rapid diversification of a single ancestral sp
     Figure 1. We simulate diversification when a predator cannot evolve (left) and when it can evolve (right). The evolutionary emergence of a predator within the radiating clade halts the diversification processes. As a result, ecological niches remained vacant (marked with red stars) and the resulting diversity of the clade is lower.
 </div>
 
-
 ### Individual variability in survival
 
 Individual variability in survival is widespread in nature. The general rule is that larger organisms have a greater chance of survival than smaller conspecifics. Using an eco-evolutionary model of diversification that considers individual variability in mortality, I show that commonly observed differences in mortality between juveniles and adults can facilitate diversification. In particular, diversification is expected to be less restricted when juveniles experience higher mortality. This work is among the first to investigate how diversification is influenced by ecological differences between developmental stages, arguably the largest source of intraspecific variation in nature (<a href="https://www.journals.uchicago.edu/doi/10.1086/730446">Chaparro-Pedraza, P.C., 2024</a>).
-
-

@@ -140,7 +140,7 @@ blockquote {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+
   margin-bottom: 3rem;
 }
 
@@ -1120,5 +1120,6 @@ a .cv-icon svg {
   fill: currentColor;
 }
 
-a:hover .cv-icon { color: var(--global-theme-color); }
-
+a:hover .cv-icon {
+  color: var(--global-theme-color);
+}
